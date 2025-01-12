@@ -1,0 +1,54 @@
+Directory structure:
+└── elaidimohamed-llm-knowledge-graph-construction/
+    ├── README
+    ├── check_env.py
+    ├── requirements.txt
+    ├── .env.example
+    ├── .gitpod.yml
+    └── llm-knowledge-graph/
+        ├── create_kg.py
+        ├── query_kg.py
+        ├── retriever.py
+        ├── test_environment.py
+        ├── chatbot/
+        │   ├── agent.py
+        │   ├── bot.py
+        │   ├── graph.py
+        │   ├── llm.py
+        │   ├── utils.py
+        │   ├── solutions/
+        │   │   ├── agent.py
+        │   │   └── tools/
+        │   │       ├── cypher.py
+        │   │       └── vector.py
+        │   └── tools/
+        │       ├── cypher.py
+        │       └── vector.py
+        ├── data/
+        │   ├── course/
+        │   │   ├── CourierPrime-Regular.cw127.pkl
+        │   │   ├── CourierPrime-Regular.pkl
+        │   │   ├── CourierPrime-Regular.ttf
+        │   │   ├── extract_lessons.py
+        │   │   └── pdfs/
+        │   │       └── llm-fundamentals.zip
+        │   └── newswire/
+        │       ├── CourierPrime-Regular.ttf
+        │       ├── articles.csv
+        │       ├── create_kg.py
+        │       ├── extract_articles.py
+        │       └── pdfs/
+        ├── snippets/
+        │   ├── chunk_data.py
+        │   ├── create_graph.py
+        │   ├── extract_nodes.py
+        │   ├── load_data.py
+        │   └── vectorize_data.py
+        └── solutions/
+            ├── create_kg_allowed.py
+            ├── create_kg_docs.py
+            ├── query_kg_enhanced.py
+            ├── query_kg_exclude.py
+            ├── query_kg_llms.py
+            ├── query_kg_prompt.py
+            └── retriever.py
